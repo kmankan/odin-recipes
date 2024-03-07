@@ -1,0 +1,65 @@
+.container {
+  /* Your CSS properties go here */
+  max-width: 100%;
+  padding: 0px 50px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family:'Open Sans', 'Times New Roman', Times, serif;
+  color: black;
+  line-height: 1.5;
+  background-color: #f9fafb;
+  background: linear-gradient(0deg,#f9fafb 0,#fff);
+}
+
+.container .heading {
+  color: black;
+  display: flex;
+  font-family: 'Google Sans', 'Montserrat';
+  font-weight: 500;
+  color: rgb(196, 166, 201);
+  text-decoration: underline;
+}
+
+.container .heading.main {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 52px;
+  color: rgb(204, 136, 136);
+  text-decoration: underline;
+  justify-content: center;
+}
+
+.image-wrapper {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid;
+}
+
+.description .paragraph {
+  font-family: 'Century';
+  font-size: 17px;
+}
+
+main .list {
+  font-family: 'Century';
+}
+
+footer {
+  display: block;
+  padding-top: 20px;
+  text-align: left;
+}

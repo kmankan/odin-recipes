@@ -1,0 +1,17 @@
+.title {
+  padding-left: 10px;
+  display: block;
+  font-family: 'Google Sans', 'Montserrat';
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.recipes {
+  font-size: 21px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.recipes li {
+  margin-bottom: 20px; /* Adjust the value as needed */
+  
+}
